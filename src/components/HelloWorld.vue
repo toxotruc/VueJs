@@ -5,7 +5,7 @@
 </template>
 
 <script setup lang="ts">
-import { useMouse, usePreferredDark, useLocalStorage } from '@vueuse/core'
+import { useMouse, usePreferredDark } from '@vueuse/core'
 
   // tracks mouse position
   const { x, y } = useMouse()
